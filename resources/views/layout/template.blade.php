@@ -1,14 +1,11 @@
 <!DOCTYPE html>
-<html lang="zxx">
-
-
-<!-- Mirrored from templates.mhrtheme.com/varsity/ by HTTrack Website Copier/3.x [XR&CO'2014], Sun, 01 Dec 2024 13:00:20 GMT -->
+<html lang="FR">
 <head>
     <!-- Required meta tags -->
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
-    <title>Varsity - Educational and Online Course HTML Website Template</title>    
-    <link rel="icon" href="{{asset('varsity.mhrtheme.com/wp-content/uploads/2022/11/favicon.png')}}" type="image/png">
+    <title>M3AK - Consulting</title>    
+    <link rel="icon" href="{{asset('favicons/favicon.ico')}}" type="image/png">
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="{{asset('css/bootstrap.min.css')}}"/>
     <!-- animate CSS -->
@@ -27,8 +24,11 @@
     <link rel="stylesheet" href="{{asset('css/flaticon.css')}}"/>
     <!-- aos CSS -->
     <link rel="stylesheet" href="{{asset('vendors/aos/aos.css')}}"/>
+    <!-- course CSS -->
+    <link rel="stylesheet" href="{{asset('css/courses.css')}}"/>
     <!-- style CSS -->
     <link rel="stylesheet" href="{{asset('style.css')}}"/>
+
 </head>
 
 <body>
@@ -51,59 +51,48 @@
             <div class="row justify-content-between">
                 <div class="col-lg-3 col-sm-6">
                     <div class="single_feature_footer">
-                        <a href="index-2.html"><img src="varsity.mhrtheme.com/wp-content/uploads/2022/11/logo.png" alt="#"></a>
-                        <p>Loo faff about cockup Harry baking cakes hunky dory mush happy 
-                        days on your bike mate.</p>
-                        <div class="footer_contact_info">
-                            <a href="tel:+464145684325"><i class="icon_phone"></i>+464 145 684 325</a>
-                            <a href="mailto:education@example.com"><i class="icon_mail_alt"></i>education@example.com</a>
-                        </div>
+                        <a href="/"><img src="{{asset('logo/logo.png')}}" alt="Logo" style="width: 50%; height: 30%; margin-left: 0; padding-left: 0;"></a>
+                        <p>M3AK Consulting accompagne les candidats pour maximiser leurs chances de réussite éducative et professionnelle.</p>
                     </div>
                 </div>
                 <div class="col-lg-3 col-sm-6">
                     <div class="single_feature_footer footer_nav">
-                        <h4>Popular Courses</h4>
+                        <h4>Menu</h4>
                         <ul>
-                            <li><a href="course-details.html">Algebra & Calculus</a></li>
-                            <li><a href="course-details.html">Business Strategy</a></li>
-                            <li><a href="course-details.html">Computer Security & Network</a></li>
-                            <li><a href="course-details.html">Data Analysis</a></li>
-                            <li><a href="course-details.html">English Learning</a></li>
-                            <li><a href="course-details.html">Music & Art</a></li>
+                            <li><a href="/">Accueil</a></li>
+                            <li><a href="a-propos">A propos</a></li>
+                            <li><a href="cours">Cours</a></li>
+                            <li><a href="contact">Contact</a></li>
                         </ul>
                     </div>
                 </div>         
                 <div class="col-lg-3 col-sm-6">
                     <div class="single_feature_footer footer_nav">
-                        <h4>COURSE CATEGORIES</h4>
+                        <h4>Liens utiles</h4>
                         <ul>
-                            <li><a href="course-category.html">Arts & Humanities</a></li>
-                            <li><a href="course-category.html">Business</a></li>
-                            <li><a href="course-category.html">Computer Science</a></li>
-                            <li><a href="course-category.html">Data Science</a></li>
-                            <li><a href="course-category.html">Language Learning</a></li>
-                            <li><a href="course-category.html">Math & Logic</a></li>
+                            <li><a href="temoignages">Témoignages</a></li>
+                            <li><a href="#">Conditions d'utilisation</a></li>
+                            <li><a href="#">Politique de confidentialité</a></li>
+                            <li><a href="#">Mentions légales</a></li>
                         </ul>
                     </div>
                 </div>
                 <div class="col-lg-2 col-sm-6">
                     <div class="single_feature_footer footer_nav">
-                        <h4>Quick Links</h4>
-                        <ul>
-                            <li><a href="#">Live Class</a></li>
-                            <li><a href="#">Tuition Fees</a></li>
-                            <li><a href="#">Terms & Conditions</a></li>
-                            <li><a href="#">Privacy Policy</a></li>
-                            <li><a href="#">Support</a></li>
-                            <li><a href="#">Career</a></li>
+                        <h4>Infos contacts</h4>
+                        <ul class="footer_contact_info">
+                            <li><a href="tel:+464145684325"><i class="icon_phone"></i>+464 145 684 325</a></li>
+                            <li><a href="mailto:education@example.com"><i class="icon_mail_alt"></i>education@example.com</a></li>
                         </ul>
                     </div>
                 </div>
                 <div class="col-lg-12">
                     <div class="copyright_part">
+                        <img src="{{asset('img/icon/about_shape_02.png')}}" alt="#" class="footer_sharp_2 custom-animation2">
+                        <img src="{{asset('img/icon/about_shape_03.png')}}" alt="#" class="footer_sharp_3 custom-animation3">
                         <div class="row align-items-center">
                             <div class="col-lg-6 col-md-8">
-                                <p>© Copyright 2024 Design by <a href="#" class="text_underline">MhrTheme.</a> All rights reserved.</p>
+                                <p>© Copyright - 2024 - Tout droits réservés.</p>
                             </div> 
                             <div class="col-lg-6 col-md-4">
                                 <div class="social_icon">
@@ -121,32 +110,29 @@
                 </div>
             </div>
         </div>
-        <img src="img/icon/shape_01.png" alt="#" class="footer_sharp_1">
-        <img src="img/icon/about_shape_02.png" alt="#" class="footer_sharp_2 custom-animation2">
-        <img src="img/icon/about_shape_03.png" alt="#" class="footer_sharp_3 custom-animation3">
     </footer>
     <!-- footer part end -->
 
     <!-- jquery slim -->
-    <script src="js/jquery-3.4.1.min.js"></script>
+    <script src="{{asset('js/jquery-3.4.1.min.js')}}"></script>
     <!-- popper js -->
-    <script src="js/popper.min.js"></script>
+    <script src="{{asset('js/popper.min.js')}}"></script>
     <!-- bootstarp js -->
-    <script src="js/bootstrap.min.js"></script>
+    <script src="{{asset('js/bootstrap.min.js')}}"></script>
     <!-- nice select -->
-    <script src="vendors/niceselect/js/jquery.nice-select.min.js"></script>
+    <script src="{{asset('vendors/niceselect/js/jquery.nice-select.min.js')}}"></script>
     <!-- owl carousel js -->
-    <script src="vendors/owl_carousel/js/owl.carousel.min.js"></script>
+    <script src="{{asset('vendors/owl_carousel/js/owl.carousel.min.js')}}"></script>
     <!-- magnify popup js -->
-    <script src="vendors/magnify_popup/jquery.magnific-popup.js"></script>
+    <script src="{{asset('vendors/magnify_popup/jquery.magnific-popup.js')}}"></script>
     <!-- simplyCountdown js -->
-    <script src="vendors/countdown/js/simplyCountdown.min.js"></script>
+    <script src="{{asset('vendors/countdown/js/simplyCountdown.min.js')}}"></script>
     <!-- counter js -->
-    <script src="vendors/counter/jquery.countTo.js"></script> 
+    <script src="{{asset('vendors/counter/jquery.countTo.js')}}"></script> 
     <!-- aos js -->
-    <script src="vendors/aos/aos.js"></script>
+    <script src="{{asset('vendors/aos/aos.js')}}"></script>
     <!-- custom js -->
-    <script src="js/custom.js"></script>
+    <script src="{{asset('js/custom.js')}}"></script>
 </body>
 
 

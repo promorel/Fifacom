@@ -767,15 +767,5 @@
     </section>
     <!-- student review part end -->
 
-    <!-- Start LTR & RTL Button -->
-	<div class="ltr-rtl-button">
-		<a class="default-btn active ltr">
-		    LTR
-		</a>
-		<a class="default-btn rtl">
-		    RTL
-		</a>
-	</div>
-	<!-- End LTR & RTL Button -->
 	
 @endsection

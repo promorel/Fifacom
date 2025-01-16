@@ -48,11 +48,11 @@
     <div class="container">
         <div class="header">
             <h1>Nouveau message de {{ $details['name'] }}</h1>
-        </div>
+        </div> 
         <div class="content">
             <p><span>Email:</span> {{ $details['email'] }}</p>
             <p><span>Téléphone:</span> {{ $details['phone'] }}</p>
-            <p><span>Objet:</span> {{ $details['subject'] }}</p>
+            <p><span>objet:</span> {{ $details['subject'] }}</p>
             <p><span>Message:</span></p>
             <p>{{ $details['message'] }}</p>
         </div>
