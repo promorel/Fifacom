@@ -96,7 +96,7 @@
                                         </div>
                                         <span class="course-instructor">
 
-                                        <span>M3AK Consulting</span>
+                                        <span>M3AK Consulting</span> 
                                         </span>
                                         <a href="/cours/parcoursup" class="course-permalink">          
                                             <h3 class="course-title">Parcoursup</h3>

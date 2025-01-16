@@ -1,8 +1,6 @@
 @extends('layout.template')
 @section('contenu')
 
-
-
     <!-- breadcrumb part -->
     <section class="breadcrumb_part blog_grid_bg">
         <div class="container">
@@ -69,6 +67,5 @@
         </div>
     </div>   
     <!-- End contact us -->
-
 
 @endsection
